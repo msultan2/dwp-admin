@@ -100,24 +100,24 @@
         {% block after_header %}{% endblock %}
 
         <div class="admin-wrapper">
-          <div class="admin-column-wrapper">
+            <div class="admin-sidebar-wrapper">
+                <div class="admin-sidebar-content">
+                  <ul>
+                    <li><a href="/">Area 1</a></li>
+                    <li><a href="#">Area 2</a></li>
+                    <li><a href="#">Area 3</a></li>
+                    <li><a href="#">Area 4</a></li>
+                  </ul>
+                </div>
+              </div>
+
+
+
             <div class="admin-content-wrapper">
               <div class="admin-content">
                 {% block content %}{% endblock %}
               </div>
             </div>
-
-            <div class="admin-sidebar-wrapper">
-              <div class="admin-sidebar-content">
-                <ul>
-                  <li><a href="/">Area 1</a></li>
-                  <li><a href="#">Area 2</a></li>
-                  <li><a href="#">Area 3</a></li>
-                  <li><a href="#">Area 4</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
         </div>
 
         <footer>
